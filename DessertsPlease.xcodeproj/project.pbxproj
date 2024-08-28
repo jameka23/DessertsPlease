@@ -11,6 +11,12 @@
 		690070E52C7EDDD000728C70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070E42C7EDDD000728C70 /* ContentView.swift */; };
 		690070E72C7EDDD300728C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690070E62C7EDDD300728C70 /* Assets.xcassets */; };
 		690070EA2C7EDDD300728C70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690070E92C7EDDD300728C70 /* Preview Assets.xcassets */; };
+		690070F52C7EDF7900728C70 /* RestAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070F42C7EDF7900728C70 /* RestAPIServices.swift */; };
+		690070F72C7EDF8C00728C70 /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070F62C7EDF8C00728C70 /* DessertModel.swift */; };
+		690070F92C7EE34200728C70 /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070F82C7EE34200728C70 /* DessertListViewModel.swift */; };
+		690070FB2C7EE35200728C70 /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FA2C7EE35200728C70 /* DessertListView.swift */; };
+		690070FE2C7EE38500728C70 /* DessertDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FD2C7EE38500728C70 /* DessertDetailsViewModel.swift */; };
+		690071002C7EE39200728C70 /* DessertDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FF2C7EE39200728C70 /* DessertDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		690070E42C7EDDD000728C70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		690070E62C7EDDD300728C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690070E92C7EDDD300728C70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		690070F42C7EDF7900728C70 /* RestAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIServices.swift; sourceTree = "<group>"; };
+		690070F62C7EDF8C00728C70 /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
+		690070F82C7EE34200728C70 /* DessertListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewModel.swift; sourceTree = "<group>"; };
+		690070FA2C7EE35200728C70 /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
+		690070FD2C7EE38500728C70 /* DessertDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsViewModel.swift; sourceTree = "<group>"; };
+		690070FF2C7EE39200728C70 /* DessertDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		690070E12C7EDDD000728C70 /* DessertsPlease */ = {
 			isa = PBXGroup;
 			children = (
+				690070F32C7EDF6500728C70 /* Services */,
+				690070F22C7EDF5D00728C70 /* Models */,
+				690070F12C7EDF5200728C70 /* ViewModels */,
+				690070F02C7EDF4700728C70 /* Views */,
 				690070E22C7EDDD000728C70 /* DessertsPleaseApp.swift */,
-				690070E42C7EDDD000728C70 /* ContentView.swift */,
 				690070E62C7EDDD300728C70 /* Assets.xcassets */,
 				690070E82C7EDDD300728C70 /* Preview Content */,
 			);
@@ -65,6 +80,41 @@
 				690070E92C7EDDD300728C70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		690070F02C7EDF4700728C70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				690070E42C7EDDD000728C70 /* ContentView.swift */,
+				690070FA2C7EE35200728C70 /* DessertListView.swift */,
+				690070FF2C7EE39200728C70 /* DessertDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		690070F12C7EDF5200728C70 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				690070F82C7EE34200728C70 /* DessertListViewModel.swift */,
+				690070FD2C7EE38500728C70 /* DessertDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		690070F22C7EDF5D00728C70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				690070F62C7EDF8C00728C70 /* DessertModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		690070F32C7EDF6500728C70 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				690070F42C7EDF7900728C70 /* RestAPIServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690070F72C7EDF8C00728C70 /* DessertModel.swift in Sources */,
+				690070F52C7EDF7900728C70 /* RestAPIServices.swift in Sources */,
 				690070E52C7EDDD000728C70 /* ContentView.swift in Sources */,
+				690070FB2C7EE35200728C70 /* DessertListView.swift in Sources */,
+				690070FE2C7EE38500728C70 /* DessertDetailsViewModel.swift in Sources */,
 				690070E32C7EDDD000728C70 /* DessertsPleaseApp.swift in Sources */,
+				690071002C7EE39200728C70 /* DessertDetailsView.swift in Sources */,
+				690070F92C7EE34200728C70 /* DessertListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
