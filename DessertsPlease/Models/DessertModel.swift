@@ -8,8 +8,9 @@
 import Foundation
 import UIKit
 
-struct Dessert: Codable {
-    let meal: String?
-    let mealThumbImage: String?
-    let mealId: String?
+struct Dessert: Identifiable, Decodable {
+    var id: String { idMeal } // Computed property to conform to Identifiable
+    let idMeal: String
+    let strMeal: String
+    let strMealThumb: String
 }
