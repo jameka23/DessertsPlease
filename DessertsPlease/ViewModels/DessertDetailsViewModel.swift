@@ -22,5 +22,6 @@ class DessertDetailsViewModel: ObservableObject {
         } catch  {
             errorString = "Error occured fetching data."
         }
+        isLoading = false
     }
 }
