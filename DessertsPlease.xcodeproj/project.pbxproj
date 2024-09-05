@@ -17,6 +17,7 @@
 		690070FB2C7EE35200728C70 /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FA2C7EE35200728C70 /* DessertListView.swift */; };
 		690070FE2C7EE38500728C70 /* DessertDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FD2C7EE38500728C70 /* DessertDetailsViewModel.swift */; };
 		690071002C7EE39200728C70 /* DessertDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690070FF2C7EE39200728C70 /* DessertDetailsView.swift */; };
+		690071022C89416B00728C70 /* DessertDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690071012C89416A00728C70 /* DessertDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		690070FA2C7EE35200728C70 /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
 		690070FD2C7EE38500728C70 /* DessertDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsViewModel.swift; sourceTree = "<group>"; };
 		690070FF2C7EE39200728C70 /* DessertDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsView.swift; sourceTree = "<group>"; };
+		690071012C89416A00728C70 /* DessertDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				690070F62C7EDF8C00728C70 /* DessertModel.swift */,
+				690071012C89416A00728C70 /* DessertDetailsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				690070FE2C7EE38500728C70 /* DessertDetailsViewModel.swift in Sources */,
 				690070E32C7EDDD000728C70 /* DessertsPleaseApp.swift in Sources */,
 				690071002C7EE39200728C70 /* DessertDetailsView.swift in Sources */,
+				690071022C89416B00728C70 /* DessertDetailsModel.swift in Sources */,
 				690070F92C7EE34200728C70 /* DessertListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

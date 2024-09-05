@@ -46,3 +46,4 @@ class RestAPIServices {
 struct DessertResponse: Decodable {
     let meals: [Dessert]
 }
+
